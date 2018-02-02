@@ -41,4 +41,5 @@ group :test do
   gem 'shoulda-matchers', '3.0.1'
   gem 'vcr'
   gem 'webmock'
+  gem 'test_dots'
 end

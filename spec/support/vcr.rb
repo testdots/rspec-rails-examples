@@ -16,6 +16,8 @@ VCR.configure do |config|
 
   # Only want VCR to intercept requests to external URLs.
   config.ignore_localhost = true
+
+  config.ignore_hosts TestDots.host
 end
 
 # 3. Start using VCR. See example use in spec/jobs/headline_scraper_job_spec.rb.
